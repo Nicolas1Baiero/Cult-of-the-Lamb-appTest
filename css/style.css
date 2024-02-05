@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Petrona:wght@500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Petrona",sans-serif;
+}
+
+body{
+    background: url("https://cdn.steamstatic.com/steamcommunity/public/images/items/1313140/fab3918e4cf5073493ec3a50d2cf348e758aa6fb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.produto{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo{
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.texto{
+    color: white;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.titulo2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+p{
+    width: 750px;
+}
+
+.gif{
+    width: 650px;
+    margin-bottom: 20px;
+}
+
+#video{
+    margin-bottom: 20px;
+}
+
+.btn{
+    width: 910px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#btncrie{
+    margin-bottom: 30px;
+}
+
+.pa{
+    font-size: 25px;
+}
